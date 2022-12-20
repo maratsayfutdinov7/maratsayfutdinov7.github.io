@@ -1,0 +1,130 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d1117;
+  color: #c9d2d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a:hover {
+  color: red;
+}
+.header {
+  margin: 40px 0;
+}
+
+.header__avatar {
+
+  width: 100%; 
+  height: 250px;
+  object-fit: contain;
+}
+
+.header__title {
+  margin: 1px 0 10px 0;
+  font-size: 32px;
+  line-height: 1.2;
+  font-family: "Helvetica Neue";
+}
+
+.header__subtitle {
+  color: #8b949f;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.links {
+  width: 320px;
+  margin-bottom: 40px;
+
+}
+
+.links__header {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0 0 15px 0;
+
+}
+
+.links__container {
+  list-style-type: inline-block;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 380px;
+  padding: 20px; 
+  box-sizing: content-box;
+  gap: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0;
+  overflow : hidden;
+}
+
+.links__link,
+.links__title {
+  font-size: 15px;
+  font-size: 1.4;
+}
+
+.links__link {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 10px;
+  gap: 30px;
+  border-bottom: 1px solid #22262d;
+  width: 280px;
+  box-sizing: content-box;
+}
+
+.links__link:last-child {
+  border-bottom: none;
+}
+
+.linsk__link,
+.links__link:visited {
+  text-decoration: none;
+  color: #58a5fe;
+}
+
+.links__title {
+  margin: 0;
+  min-width: 100px;
+}
+
+footer {
+  margin: 0 0 50px 0;
+}
+.button-link {
+  position:relative;
+    left:50px;
+    top:5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 320px;
+  background: #20262e;
+  border: 1px solid #30363d;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  color: red;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+
